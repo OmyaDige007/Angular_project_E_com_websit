@@ -1,0 +1,199 @@
+{
+  "seller": [
+    {
+      "name": "Omkar Dige",
+      "email": "omrdige@gmail.com",
+      "password": "omkar2510",
+      "id": 1
+    },
+    {
+      "name": "Rohan Shinde",
+      "email": "rohan@gmail.com",
+      "password": "rohan2510",
+      "id": 2
+    },
+    {
+      "name": "abc",
+      "password": "abc123",
+      "email": "abc@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "pqr",
+      "password": "123456",
+      "email": "pqr@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "demo",
+      "password": "demo@123",
+      "email": "demo@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "mobile",
+      "description": "A iphone brant",
+      "image": "https://www.pngmart.com/files/22/iPhone-14-PNG-Pic.png",
+      "id": 1
+    },
+    {
+      "name": "Dell",
+      "price": "70000",
+      "color": "black",
+      "category": "Laptop",
+      "description": "Dell product",
+      "image": "https://cdn.shopify.com/s/files/1/0227/8895/products/dell-inspiron-15-5000_1024x1024.jpg?v=1571438638",
+      "id": 2
+    },
+    {
+      "name": "Vivo Y12",
+      "price": "14000",
+      "color": "blue",
+      "category": "mobile",
+      "description": "Vivo products",
+      "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y12s-2.jpg",
+      "id": 3
+    },
+    {
+      "name": "Nike",
+      "price": "2000",
+      "color": "white",
+      "category": "shoes",
+      "description": "Nike product",
+      "image": "https://cdn.hnak.com/products/nike-sp20-fw-laced-shoes-wht-blk-m-nkcj0952-100-10-5-w0x1h3g1q/6fp1q4-small.jpeg",
+      "id": 4
+    },
+    {
+      "name": "Puma",
+      "price": "1500",
+      "color": "black",
+      "category": "T-Shirt",
+      "description": "A puma brand product",
+      "image": "https://i.pinimg.com/236x/f2/99/63/f2996374cef909660f2fd435b2fbef25.jpg",
+      "id": 5
+    },
+    {
+      "name": "Fridge",
+      "price": "15000",
+      "color": "white",
+      "category": "Fridge",
+      "description": "A fridge brand product",
+      "image": "https://previews.123rf.com/images/fotovika/fotovika1202/fotovika120200026/12230415-illustration-of-a-new-fridge-on-a-white-background.jpg",
+      "id": 6
+    },
+    {
+      "name": "Protein Powder ",
+      "price": "7000",
+      "color": "black",
+      "category": "protein",
+      "description": "A bigMuscles protein powder",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQRB5LFTwmpzcuZX7ebJRXRFOaAD7VVs57hTBbwwgoEXjSr6HOxpgzxgQGXpkNDgo-kU&usqp=CAU",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@gmail.com",
+      "password": "anil123",
+      "id": 1
+    },
+    {
+      "name": "piter",
+      "email": "piter@gmail.com",
+      "password": "piter123",
+      "id": 2
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "nikhil",
+      "email": "nikhil@gmail.com",
+      "password": "nikhil123",
+      "id": 4
+    },
+    {
+      "name": "piter",
+      "email": "piter@gmail.com",
+      "password": "piter123",
+      "id": 5
+    },
+    {
+      "name": "sahil",
+      "email": "sahil@gmail.com",
+      "password": "sahil123",
+      "id": 6
+    },
+    {
+      "name": "om",
+      "email": "om@1234",
+      "password": "om123",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "name": "AirPod",
+      "price": "2500",
+      "color": "white",
+      "category": "AirPod",
+      "description": "A bot brand airPod",
+      "image": "https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_UF1000,1000_QL80_.jpg",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 1
+    },
+    {
+      "name": "iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "mobile",
+      "description": "A iphone brant",
+      "image": "https://www.pngmart.com/files/22/iPhone-14-PNG-Pic.png",
+      "quantity": 2,
+      "productId": 1,
+      "userId": null,
+      "id": 2
+    },
+    {
+      "name": "Dell",
+      "price": "70000",
+      "color": "black",
+      "category": "Laptop",
+      "description": "Dell product",
+      "image": "https://cdn.shopify.com/s/files/1/0227/8895/products/dell-inspiron-15-5000_1024x1024.jpg?v=1571438638",
+      "quantity": 1,
+      "userId": 6,
+      "productId": 2,
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "email": "sahil@gmail.com",
+      "address": "satara",
+      "contact": "415011",
+      "totalPrice": 16050,
+      "userId": 6,
+      "id": 1
+    },
+    {
+      "email": "omrdige@gmail.com",
+      "address": "satara",
+      "contact": "415011",
+      "totalPrice": 307500,
+      "userId": 6,
+      "id": 2
+    }
+  ]
+}
